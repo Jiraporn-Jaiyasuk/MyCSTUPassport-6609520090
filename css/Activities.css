@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.text-Acti {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Acti {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Akaya Telivigala', cursive;
+    margin-top: 80px;
+}
+
+.Acti-img1 {
+    margin-left: 320px;
+}
+
+.Acti-img2 {
+    margin-left: 100px;
+}
+
+.Acti-img1 img {
+    border-radius: 10%;
+}
+
+.Acti-img2 img {
+    border-radius: 10%;
+}
+
+.Acti-img1 p {
+    margin-bottom: 20px;
+}
+
+.Acti-img2 p {
+    margin-bottom: 20px;
+}
+
+.Acti-img1 a {
+    text-decoration: none;
+    color: #DD8989;
+    width: 300px;
+    background: black;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.Acti-img2 a {
+    text-decoration: none;
+    color: #DD8989;
+    width: 400px;
+    background: black;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Akaya Telivigala', cursive;
+}
