@@ -1,0 +1,35 @@
+/*master file all CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /*border: 1px solid red;*/
+    background-color: #DD8989;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Akaya Telivigala', cursive;
+}

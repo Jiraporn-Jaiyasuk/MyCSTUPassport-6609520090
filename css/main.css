@@ -33,7 +33,7 @@
 }
 
 .header-info {
-    background-image: url('../img/bg\ pink1.svg');
+    background-image: url('../image/bg\ pink1.svg');
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
