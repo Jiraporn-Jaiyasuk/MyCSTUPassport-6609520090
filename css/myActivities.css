@@ -86,3 +86,47 @@
 .border2 a:hover {
     background-color: #f8c8c8;
 }
+
+.note {
+    box-shadow: 0 0 10px #DD8989;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.note h6 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.note h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.note h5 {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.note p {
+    margin-top: 20px;
+}
+
+.ig {
+    text-decoration: none;
+    color: #DD8989;
+    background: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.ig:hover {
+    background-color: #ffdddd;
+}
