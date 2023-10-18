@@ -35,12 +35,6 @@
     color: #fff;
 }
 
-.header-info {
-    background-image: url('../image/bg\ pink1.svg');
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .h-title {
     text-align: center;
     margin-top: 200px;
