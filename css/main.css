@@ -137,3 +137,54 @@
     text-align: center;
     margin-top: 10px;
 }
+
+.border {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.pw-video {
+    text-align: center;
+}
+
+.pw-video video {
+    margin-top: 15px;
+    width: 50%;
+    height: 50%;
+}
+
+.pw-video p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.pw-title h2 {
+    color: #543C6D;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.pw-title p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pw-title ol {
+    padding: 20px;
+}
+
+.pw-title li {
+    font-size: 16px;
+}
+
+.item-text {
+    background-color: black;
+    padding: 1rem 1.5rem;
+}
+
+.item-text h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
