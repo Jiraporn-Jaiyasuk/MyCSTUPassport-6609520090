@@ -7,66 +7,82 @@
     font-family: 'Coiny', cursive;
 }
 
-.text-Acti {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-
 .Acti {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-family: 'Akaya Telivigala', cursive;
-    margin-top: 80px;
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .Acti-img1 {
-    margin-left: 320px;
-}
-
-.Acti-img2 {
-    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .Acti-img1 img {
     border-radius: 10%;
+    box-shadow: 0 0 10px #493434;
+}
+
+.p-05 {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.border1 {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.border1 a {
+    text-decoration: none;
+    color: black;
+    background: #DD8989;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.border1 a:hover {
+    background-color: #f8c8c8;
+}
+
+.Acti-img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .Acti-img2 img {
     border-radius: 10%;
+    box-shadow: 0 0 10px #493434;
 }
 
-.Acti-img1 p {
-    margin-bottom: 20px;
+.p-06 {
+    margin-top: 7px;
+    text-align: center;
 }
 
-.Acti-img2 p {
-    margin-bottom: 20px;
+.border2 {
+    text-align: center;
+    margin-top: 7px;
 }
 
-.Acti-img1 a {
+.border2 a {
     text-decoration: none;
-    color: #DD8989;
-    width: 300px;
-    background: black;
-    border-radius: 15px;
-    text-decoration: none;
-    padding: .5rem 1.5rem;
-    justify-content: space-between;
-    font-size: 14px;
-    font-family: 'Akaya Telivigala', cursive;
-}
-
-.Acti-img2 a {
-    text-decoration: none;
-    color: #DD8989;
-    width: 400px;
-    background: black;
-    border-radius: 15px;
+    color: black;
+    background: #DD8989;
+    border-radius: 10px;
     text-decoration: none;
     padding: .5rem 1.5rem;
     justify-content: space-between;
     font-size: 14px;
-    font-family: 'Akaya Telivigala', cursive;
+}
+
+.border2 a:hover {
+    background-color: #f8c8c8;
 }
