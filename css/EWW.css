@@ -7,28 +7,37 @@
     font-family: 'Coiny', cursive;
 }
 
-.EWW {
-    margin-top: 70px;
-}
-
 .EWW-title {
-    font-size: 35px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+    font-size: 28px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .EWW-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
-.EWW-text {
-    padding: 30px;
-    margin-left: 20px;
+.img {
+    border: 1px solid #ccc;
+    padding: 0 6px;
+    float: left;
+    width: 50%;
 }
 
-.EWW-text p {
-    font-size: 18px;
+.img:hover {
+    border: 1px solid black;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 12px;
 }
